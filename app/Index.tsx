@@ -1,18 +1,16 @@
 import {View} from "react-native";
 import {StatusBar} from "expo-status-bar";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
-import Home from "@/app/(Stack)/screens/Home";
+import Productoss from "@/app/(Stack)/screens/productos/Productos";
 
 
 const Index = ()=> {
 
     const insets = useSafeAreaInsets()
     return (
-
-        // style={{flex: 1, paddingBottom: insets.bottom, paddingTop: insets.top}}
         <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}} className='flex'>
             <StatusBar style='auto'/>
-            <Home />
+            <Productoss />
         </View>
     )
 }

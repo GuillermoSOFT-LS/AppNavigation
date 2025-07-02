@@ -17,7 +17,7 @@ module.exports = {
                 100: '#C51297',
                 200: '#831266',
             },
-            terctiary: '#EF2967',
+            tertiary: '#EF2967',
         }
     },
   },

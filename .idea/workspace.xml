@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c1140bc-f0f4-4371-be13-b5069bbb6357" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(Stack)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/Productos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/productos/Productos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(Stack)/screens/productos/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/Products.store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/btnCpn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Components/btnCpn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(Stack)/screens/Productos.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/Index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(Stack)/screens/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/screens/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(Stack)/screens/productos" />
       <recent name="$PROJECT_DIR$/app/(Stack)" />
       <recent name="$PROJECT_DIR$/app/screens" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
@@ -75,7 +74,8 @@
       <workItem from="1751385535855" duration="160000" />
       <workItem from="1751385889097" duration="8175000" />
       <workItem from="1751397182225" duration="10763000" />
-      <workItem from="1751481329552" duration="4047000" />
+      <workItem from="1751481329552" duration="5223000" />
+      <workItem from="1751486644683" duration="2673000" />
     </task>
     <servers />
   </component>
