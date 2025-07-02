@@ -1,8 +1,7 @@
 import {View} from "react-native";
-import {Link} from 'expo-router'
 import {StatusBar} from "expo-status-bar";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
-import Home from "@/app/screens/Home";
+import Home from "@/app/(Stack)/screens/Home";
 
 
 const Index = ()=> {
@@ -14,7 +13,6 @@ const Index = ()=> {
         <View style={{paddingTop: insets.top, paddingBottom: insets.bottom}} className='flex'>
             <StatusBar style='auto'/>
             <Home />
-            <Link href='/screens/Contact'>Ir a contact</Link>
         </View>
     )
 }

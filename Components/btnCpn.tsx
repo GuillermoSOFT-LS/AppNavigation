@@ -1,13 +1,17 @@
 import {Text,Pressable, PressableProps} from "react-native";
 import '../app/global.css'
+
+
 interface Props extends PressableProps{
-children:string;
-color?: 'bg-primary' | 'bg-secondary' | 'bg-tertiary'
+    children:string;
+    bgcolor?: 'bg-primary' | 'bg-secondary' | 'bg-tertiary' |'bg-secondary-200'
+    color?: 'text-primary' | 'text-secondary' | 'text-tertiary'
+    className?: string
 }
 
-export const BtnCpn = ({children, color = 'bg-primary'}:Props) => {
+export const BtnCpn = ({children, className, color, onPress, bgcolor = 'bg-primary'}:Props) => {
     return (
-            <Pressable className={`p-3 rounded-md ${color}`}>
+            <Pressable onPress={onPress} className={`p-3 rounded-md ${bgcolor} ${color} ${className}`}>
                 <Text className={`text-white text-center`}>{children}</Text>
             </Pressable>
     )
