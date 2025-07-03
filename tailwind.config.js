@@ -11,6 +11,10 @@ module.exports = {
           'work-medium': ['WorkSans-Medium', 'sans-serif'],
       },
         colors: {
+          WB: {
+              w: '#ffffff',
+              B: '#000000'
+          },
           primary: '#49129C',
             secondary: {
                DEFAULT: '#B40086',

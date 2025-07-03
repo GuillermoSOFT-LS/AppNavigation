@@ -9,8 +9,12 @@ const ProductScreen = ()=> {
 
     const product =  products.find((p) => p.id === id)
 
-    if (!product) {
-        return <Redirect href="/" />
+    if (!id || Array.isArray(id)) {
+        return <Redirect href="/" />;
+    }
+
+    if (typeof id !== "string") {
+        return <Redirect href="/" />;
     }
     return (
             <View>
