@@ -2,8 +2,8 @@ import {View} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 import {BtnCpn} from "@/Components/btnCpn";
 import {router} from "expo-router";
-import Productoss from "@/app/(Stack)/screens/productos/ProductosScreen";
-import '../../global.css'
+import Productoss from "@/app/tabs/(Stack)/screens/productos/ProductosScreen";
+import '../../../global.css'
 
 const Home = () => {
     const insets = useSafeAreaInsets();

@@ -1,7 +1,7 @@
 import {View, FlatList,Text} from "react-native";
 import {products} from "@/store/Products.store";
 import {Link} from "expo-router";
-import '../../../global.css'
+import '../../../../global.css'
 import {ScrollView} from "react-native";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
 

@@ -61,4 +61,8 @@ https://github.com/DevTalles-corp/expo-navigation-app/tree/fin-seccion-06
    .useLocalSearchParams
    .Stack.Screen
    .Tabs
+   .Drawer
+   .si colocas () en una carpeta no es necesario colocarlar en la ruta
+   .investigar si esta bien o si te parece bien lo de colocar en carpetas por eje: en una carpeta los tabs en otra los Stack y asi ...
+   .useNavigaton()
    ```
