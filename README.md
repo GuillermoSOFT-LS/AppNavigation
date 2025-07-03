@@ -66,3 +66,5 @@ https://github.com/DevTalles-corp/expo-navigation-app/tree/fin-seccion-06
    .investigar si esta bien o si te parece bien lo de colocar en carpetas por eje: en una carpeta los tabs en otra los Stack y asi ...
    .useNavigaton()
    ```
+## Proyecto terminado de parte del tutor
+- [Proyecto completo de parte del tutor](https://github.com/DevTalles-corp/expo-navigation-app/tree/fin-seccion-07)
