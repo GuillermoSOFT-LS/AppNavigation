@@ -1,6 +1,6 @@
 import {Text, View} from "react-native";
 import {products} from "@/store/Products.store";
-import {Redirect, useLocalSearchParams} from "expo-router";
+import {Link, Redirect, useLocalSearchParams} from "expo-router";
 
 const ProductScreen = ()=> {
 
@@ -13,12 +13,24 @@ const ProductScreen = ()=> {
         return <Redirect href="/" />;
     }
 
-    if (typeof id !== "string") {
+    if (!id ||Array.isArray(id) || typeof id !== "string") {
         return <Redirect href="/" />;
     }
-    return (
+
+    if (!product) {
+        return (
             <View>
-                <Text>{product.title}</Text>
+                <Text>Producto no encontrado</Text>
+                <Link href="/">Volver a la tienda</Link>
+            </View>
+
+        )
+    }
+    return (
+            <View className='px-10 p-b py-5'>
+                <Text className='font-work-black text-3xl pb-4'>{product.title}</Text>
+                <Text>{product.description}</Text>
+                <Text className='font-bold pt-2'>{product.price}</Text>
             </View>
     )
 }

@@ -11,7 +11,7 @@ interface Props extends PressableProps{
 
 export const BtnCpn = ({children, className, color, onPress, bgcolor = 'bg-primary'}:Props) => {
     return (
-            <Pressable onPress={onPress} className={`p-3 rounded-md ${bgcolor} ${color} ${className}`}>
+            <Pressable onPress={onPress} className={`p-4 rounded-md ${bgcolor} ${color} ${className}`}>
                 <Text className={`text-white text-center`}>{children}</Text>
             </Pressable>
     )

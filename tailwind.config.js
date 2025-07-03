@@ -12,8 +12,9 @@ module.exports = {
       },
         colors: {
           WB: {
-              w: '#ffffff',
-              B: '#000000'
+              W: '#ffffff',
+              G: '#a69e9e',
+              B: '#222222'
           },
           primary: '#49129C',
             secondary: {
