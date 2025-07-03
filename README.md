@@ -53,3 +53,12 @@ Join our community of developers creating universal apps.
 
 https://github.com/DevTalles-corp/expo-navigation-app/tree/fin-seccion-06
 
+## Temas Calve
+
+```bash
+   .Stack
+   ._layout
+   .useLocalSearchParams
+   .Stack.Screen
+   .Tabs
+   ```

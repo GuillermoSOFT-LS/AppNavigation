@@ -10,12 +10,12 @@ const Productoss = () => {
     const insets = useSafeAreaInsets();
     return (
         <ScrollView>
-            <View className='flex p-5'>
+            <View className='flex P-5'>
                 <FlatList
                     data={products}
                     keyExtractor={item => item.id.toString()}
                     renderItem={({item}) => (
-                        <View className='p-5 '>
+                        <View className='p-5'>
                             <View className='p-4 border-2 bg-WB-B  rounded-md'>
                                 <Text className='font-work-black text-2xl text-white'>{item.title}</Text>
                                 <Text className='text-WB-G'>{item.description}</Text>
