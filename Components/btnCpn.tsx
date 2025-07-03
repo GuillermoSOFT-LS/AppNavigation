@@ -5,7 +5,7 @@ import '../app/global.css'
 interface Props extends PressableProps{
     children:string;
     bgcolor?: 'bg-primary' | 'bg-secondary' | 'bg-tertiary' |'bg-secondary-200'
-    color?: 'text-primary' | 'text-secondary' | 'text-tertiary'
+    color?: 'text-primary' | 'text-secondary' | 'text-tertiary' | 'text-WB-W' | 'text-WB-B'
     className?: string
 }
 
